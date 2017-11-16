@@ -1,3 +1,5 @@
+//Після введення з клавіатури рядками деяких прізвищ і поруч з ними віку (рік народження) відсортувати і видати на екран цей список
+
 #include <iostream>
 #include <iomanip>
 #include <windows.h>
@@ -14,7 +16,7 @@ int mark[5];//оценка
  
 int  main()
 {
-setlocale(0,"Rus");
+setlocale(LC_ALL,"Rus");
 int i;
 student laba[n]; 
 

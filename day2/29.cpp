@@ -1,3 +1,7 @@
+//Написати програму яка вираховує кількість букв у реченні
+
+
+
 #include <iostream>
 #include <iomanip>
 #include <stdio.h>
@@ -9,7 +13,7 @@ using namespace std;
 {
 char s[400];
 char *buf =" ,.!?";
-cout<<"Vvedite stoky\n";
+cout<<"Vvedite rechenna\n";
 gets(s);
  
 int i,count = 0;
