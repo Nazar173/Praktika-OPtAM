@@ -1,17 +1,17 @@
-//Після введення з клавіатури рядками деяких прізвищ і поруч з ними віку (рік народження) відсортувати і видати на екран цей список
 
+//Pisla vvedenna z klaviatyri radkami deyakih prizvisx i porykh z nimi viky vidsortyvati i vidati na ekran cei spisok
 #include <iostream>
 #include <iomanip>
 #include <windows.h>
 using namespace std;
  
-const int n=2;//переделать под 10 студентов потом
+const int n=2;
  
 struct student
 {
-char name[30];//имя
-char group[10];//группа
-int mark[5];//оценка
+char name[30];
+char group[10];
+int mark[5];
 };
  
 int  main()
@@ -21,35 +21,35 @@ int i;
 student laba[n]; 
 
  
-for(i=0;i<n;i++)//заполнение структуры
+for(i=0;i<n;i++)
 {
-cout<<"Вводим данные о студенте № "<<i+1<<endl;
-cout<<"Имя:\t";
+cout<<"Information studentov № "<<i+1<<endl;
+cout<<"Name:\t";
 cin>>laba[i].name;
-cout<<"Группа:\t";
+cout<<"Group:\t";
 cin>>laba[i].group;
-cout<<"Оценки(5шт.):\n";
+cout<<"Ball(5):\n";
 cin  >> laba[i].mark[0] >> laba[i].mark[1] 
      >> laba[i].mark[2] >> laba[i].mark[3] >> laba[i].mark[4];
 OemToChar(laba[i].name,laba[i].name);
 OemToChar(laba[i].group,laba[i].group);
 }   
  
-//вывод нач. данных
-cout<<"\n\nВаши введенные данные :\n"
-    <<"Номер"<<setw(7)<<"Имя"<<setw(22)<<"Группа"<<setw(22)<<"Оценки"
+
+cout<<"\n\nVedenni danni :\n"
+    <<"Number"<<setw(7)<<"Name"<<setw(22)<<"Group"<<setw(22)<<"Ball"
     <<"\n_____________________________________________________________________________\n";
 for(i=0;i<n;i++)
 cout<<i+1<<setw(15)<<laba[i].name<<setw(20)<<laba[i].group
     <<setw(20)<<laba[i].mark[0]<<setw(3)<<laba[i].mark[1]<<setw(3)<<laba[i].mark[2]
     <<setw(3)<<laba[i].mark[3]<<setw(3)<<laba[i].mark[4]<<endl;
  
-//тут будут записи, упорядоченные по алфавиту
+
  
  
-//студенты с "2"
-int flag=0;//для проверки кол-ва студентов с "2"
-cout<<"\n\n\nСтуденты, имеющие оценку '2'\n";
+
+int flag=0;
+cout<<"\n\n\nStudent have ball '2'\n";
 for(i=0;i<n;i++)
     if(laba[i].mark[0]==2 || laba[i].mark[1]==2 ||  laba[i].mark[2]==2
       || laba[i].mark[3]==2 || laba[i].mark[4]==2)
@@ -60,6 +60,6 @@ for(i=0;i<n;i++)
     flag++;
     }
 if(flag==0)
-cout<<"\n\n\nСтудентов, имеющих оценку '2' нет."<<endl;
+cout<<"\n\n\nStudent have ball '2' no."<<endl;
 return 0;
 }

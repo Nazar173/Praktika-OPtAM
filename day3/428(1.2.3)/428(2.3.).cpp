@@ -1,3 +1,6 @@
+//Dani diisni chisla a,b.Otrimati  u=min(ab,a+b),min(u+u*u,3.14)
+
+
 #include <iostream>
 #include <math.h>
 # define M_PI           3.14159265358979323846

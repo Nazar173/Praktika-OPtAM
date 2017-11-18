@@ -1,5 +1,5 @@
-//Після введення з клавіатури довільного рядка визначити і вивести на екран кількість літер кирилиці в ньому.
 
+//Pisla vvedenna z klaviatyri dovilnogo radka viznachiti i vivisti na ekran kilkist liter kirilixi v nomy
 
 #include <iostream>
 #include <iomanip>

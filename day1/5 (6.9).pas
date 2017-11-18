@@ -1,5 +1,5 @@
-//Написать програму яка рахує саме менше і більше слово і вказує кількість букв в слові
 
+//Napisat programy yaka rahye same menhe i bilhe slovo i vkazye kilkist bykv v slovi
 
 
 Var

@@ -1,3 +1,9 @@
+//Dani diisni cxisla a,b. Poltchit u=min(a,b)
+
+
+
+
+
 #include <iostream>
 #include <math.h>
 # define M_PI           3.14159265358979323846

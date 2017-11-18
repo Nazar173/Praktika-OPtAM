@@ -1,3 +1,5 @@
+//Znaiti znachenna virazy y = ((a+b*b*b*b*b)+(c+d*d*d*d*d))/((c+a*a*a*a*a*a)*(b+d*d*d*d*d));
+
 #include <iostream>
 #include <math.h>
 

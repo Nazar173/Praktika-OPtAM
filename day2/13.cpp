@@ -1,6 +1,7 @@
-//13.	Дано послідовність цілих чисел. З'ясувати, чи можна розбити її на пари таким чином, щоб добуток чисел будь-якої пари дорівнював одному й тому ж числу
-//a.	для натуральних чисел
-//b.	для довільних цілих.
+
+//Dano poslidovnist cxlih chisel. Zasyvati cxi mogna rozbiti ii na pari takim cxinom shob dobytok cxisel byd yakoi pari dorivnyvav odnomy i tomy g cxisly 
+//a.	dla naturalnih chisel
+//b.	dla dovilnih cxilih.
 
 
 

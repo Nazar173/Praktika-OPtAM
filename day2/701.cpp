@@ -1,4 +1,4 @@
-//задана квадратна матриця А порядка n і вектор b c n елементами.Отримати вектор 1)Ab
+//Zadana kvadratna matricxa А poradka n і vektor b c n elementami.Otrimati vektor 1)Ab
 //2)A*Ab
 //3)(A-E)b
 

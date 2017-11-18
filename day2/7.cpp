@@ -1,4 +1,6 @@
-//Виконати злиття впорядкованого за зростанням A(m) і невпорядкованого B(n) масивів (n<<m) у впорядкований за неспаданням масив С.
+
+//vikonati zlitta vporadkovanogo za zrostannam A(m) i nevporadkovanogo B(n) masiviv (n<<m) y vporadkyvanii za nespadannam masiv C.          
+
 
 #include <iostream>
 #include <cstdlib>

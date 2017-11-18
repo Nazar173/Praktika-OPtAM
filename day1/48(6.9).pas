@@ -1,4 +1,6 @@
-// Написати програму яка вичисляє відношення букв до довжини текста
+
+//Napisat programy  yaka vichisla vidnohenna bykB do dovgini texsta
+
 
 
 uses crt;

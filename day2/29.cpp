@@ -1,5 +1,5 @@
-//Написати програму яка вираховує кількість букв у реченні
 
+//napisati programy yaka virahovye kilkist bykv y rechenni
 
 
 #include <iostream>

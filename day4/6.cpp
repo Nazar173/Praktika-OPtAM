@@ -1,5 +1,5 @@
-//Найти периметр фигуры ABCD по заданным сторонам
-//АВ, АС и DC
+//Naiiti priklad figyri ABCD po zadanim ctoronam
+//АВ, АС i DC
 
 
 
