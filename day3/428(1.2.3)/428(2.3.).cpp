@@ -5,7 +5,7 @@
 #include <math.h>
 
 float  func_min(float x, float y){
-       if (x >=y)
+       if (x <=y)
        {
               return x;
        }
