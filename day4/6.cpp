@@ -1,5 +1,5 @@
-//Naiiti priklad figyri ABCD po zadanim ctoronam
-//ÀÂ, ÀÑ i DC
+//Naiiti priklad figyri ABCD po zadanim storonam
+//AB, AC i DC
 
 
 

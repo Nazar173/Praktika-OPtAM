@@ -1,27 +1,21 @@
-//Znaiti znachenna virazy y = ((a+b*b*b*b*b)+(c+d*d*d*d*d))/((c+a*a*a*a*a*a)*(b+d*d*d*d*d));
+//Znaiti znachenna virazy y = pow((a+b), v) + pow((c+d),v) / pow((c+a), v) + pow((b+d),v);
 
 #include <iostream>
-#include <math.h>
+#include <cmath>
 
 using namespace std;
-float func(float a ,float b,float c, float d){
-float y = ((a+b*b*b*b*b)+(c+d*d*d*d*d))/((c+a*a*a*a*a*a)*(b+d*d*d*d*d));
-return y;
-}
+
+
 main(){
-       float a,b,c,d;
-cout<<"Write num a,b,c,d: ";
-cin>>a;
-cin>>b;
-cin>>c;
-cin>>d;
-cout<<func(a, b, c, d)<<endl;
-system ("pause");
-return 0;
-}
-
-
-
+       double y;
+       double v=5;
+       double a = 3,b = 7, c = 9, d = 2;
+       y = pow((a+b), v) + pow((c+d),v) / pow((c+a), v) + pow((b+d),v);
+       cout << y << endl;
+       system("pause");
+       return 0;
+       }
+ 
 
 
 
