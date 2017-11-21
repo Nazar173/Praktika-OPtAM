@@ -7,6 +7,9 @@
 #include <iostream>
 #include <math.h>
 
+using namespace std;
+
+
 float  func_min(float x, float y){
        if (x <=y)
        {
@@ -18,10 +21,10 @@ float  func_min(float x, float y){
        }}
         main(){
                float a,b;
-                  std:: cout<< "VVedit a,b"<<std:: endl;
-               std:: cin>>a;
-               std:: cin>>b;
-               std:: cout<<"u=min (a,b)="<<func_min(a,b) <<std:: endl;    
+                   cout<< "VVedit a,b"<< endl;
+               cin>>a;
+                cin>>b;
+               cout<<"u=min (a,b)="<<func_min(a,b) << endl;    
                
                
                system("pause");

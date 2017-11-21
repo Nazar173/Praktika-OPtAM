@@ -6,8 +6,9 @@
 
 #include <iostream>
 #include <cmath>
+using namespace std;
  
-double calculate_the_hypotenuse(double x, double y)
+double figura(double x, double y)
 {
     return sqrt(x*x + y*y);
 }
@@ -18,10 +19,10 @@ int main()
     const double AC = 6;
     const double CD = 5;
  
-    double BC = calculate_the_hypotenuse(AB, AC);
-    double BD = calculate_the_hypotenuse(BC, CD);
+    double BC = figura (AB, AC);
+    double BD = figura (BC, CD);
  
-    std::cout << "The perimeter of the figure is: "
+    cout << "The figura thrikytnik "
               << AB + AC + CD + BD;
  system("pause");
     return 0;
