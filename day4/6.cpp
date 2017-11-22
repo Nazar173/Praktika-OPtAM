@@ -1,4 +1,4 @@
-//Naiiti priklad figyri ABCD po zadanim storonam
+//Naiiti primer figyri ABCD po zadanim storonam
 //AB, AC i DC
 
 

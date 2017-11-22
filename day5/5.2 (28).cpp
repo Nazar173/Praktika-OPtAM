@@ -1,3 +1,7 @@
+/*Izvesni maksimalni skorosti 5 modeleii avtomobiliv.Vsi znachenna virageni v KM.
+Napechatat nazvy modeleii y kotorih max skorost privihaet 180 KM */
+
+
 #include <iostream>
 #include <string.h>
 
